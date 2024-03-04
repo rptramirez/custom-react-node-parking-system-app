@@ -170,16 +170,6 @@ const removeParkingSlot = async (req, res) => {
   }
 };
 
-
-module.exports = removeParkingSlot;
-
-
-module.exports = removeParkingSlot;
-
-module.exports = removeParkingSlot;
-
-
-
 module.exports = {
   getParkingSlots,
   assignParkingSlot,

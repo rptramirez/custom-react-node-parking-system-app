@@ -1,0 +1,83 @@
+{
+  "entryPoints": [
+    "A",
+    "B",
+    "C"
+  ],
+  "parkingSlots": [
+    {
+      "entryPoint": "A",
+      "slots": [
+        {
+          "id": "1a",
+          "size": "SP",
+          "occupied": true,
+          "distance": 1
+        },
+        {
+          "id": "1b",
+          "size": "MP",
+          "occupied": true,
+          "distance": 4
+        },
+        {
+          "id": "1c",
+          "size": "LP",
+          "occupied": false,
+          "distance": 5
+        }
+      ]
+    },
+    {
+      "entryPoint": "B",
+      "slots": [
+        {
+          "id": "2a",
+          "size": "SP",
+          "occupied": false,
+          "distance": 3
+        },
+        {
+          "id": "2b",
+          "size": "MP",
+          "occupied": false,
+          "distance": 2
+        },
+        {
+          "id": "2c",
+          "size": "LP",
+          "occupied": false,
+          "distance": 3
+        }
+      ]
+    },
+    {
+      "entryPoint": "C",
+      "slots": [
+        {
+          "id": "3a",
+          "size": "SP",
+          "occupied": false,
+          "distance": 2
+        },
+        {
+          "id": "3b",
+          "size": "MP",
+          "occupied": false,
+          "distance": 3
+        },
+        {
+          "id": "3c",
+          "size": "LP",
+          "occupied": false,
+          "distance": 4
+        }
+      ]
+    }
+  ],
+  "parkingSizes": {
+    "SP": 0,
+    "MP": 1,
+    "LP": 2
+  }
+}
